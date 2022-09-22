@@ -22,13 +22,13 @@ function showTimeUntilFallBreak(){
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="column1"
-    document.getElementById("column1").innerHTML = days + "D " + hours + "H "
-    + minutes + "M " + seconds + "S" + "<br />" + "UNTIL FALL BREAK";
+    document.getElementById("column4").innerHTML = days + " days " + hours + " hours "
+    + minutes + " minutes " + seconds + " seconds" + "<br />" + "until fall break";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("column1").innerHTML = "COUNTDOWN ENDED";
+        document.getElementById("column4").innerHTML = "COUNTDOWN ENDED";
     }
     }, 1000);
         
@@ -53,13 +53,13 @@ function showTimeUntilDimission(){
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="column1"
-    document.getElementById("column3").innerHTML = days + "D " + hours + "H "
-    + minutes + "M " + seconds + "S" + "<br />" + "UNTIL SUMMER HOLIDAY";
+    document.getElementById("column6").innerHTML = days + " days " + hours + " hours "
+    + minutes + " minutes " + seconds + " seconds" + "<br />" + "until summer holiday";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("column3").innerHTML = "COUNTDOWN ENDED";
+        document.getElementById("column6").innerHTML = "COUNTDOWN ENDED";
     }
     }, 1000);
         
@@ -84,13 +84,13 @@ function showTimeUntilChristmasBreak(){
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="column1"
-    document.getElementById("column2").innerHTML = days + "D " + hours + "H "
-    + minutes + "M " + seconds + "S" + "<br />" + "UNTIL CHRISTMAS BREAK";
+    document.getElementById("column5").innerHTML = days + " days " + hours + " hours "
+    + minutes + " minutes " + seconds + " seconds" + "<br />" + "until christmas break";
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("column2").innerHTML = "COUNTDOWN ENDED";
+        document.getElementById("column5").innerHTML = "COUNTDOWN ENDED";
     }
     }, 1000);
 };
