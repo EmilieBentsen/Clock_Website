@@ -6,7 +6,7 @@ app.use(express.static("public"));
 import path from "path";
 
 app.get("/", (req, res) => {
-    res.sendFile(path.resolve("public/frontpage.html"));
+    res.sendFile(path.resolve("public/index.html"));
 });
 
 
