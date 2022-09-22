@@ -22,8 +22,8 @@ function showTimeUntilFallBreak(){
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="column1"
-    document.getElementById("column1").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s" + "<br />" + "until fall break";
+    document.getElementById("column1").innerHTML = days + "D " + hours + "H "
+    + minutes + "M " + seconds + "S" + "<br />" + "UNTIL FALL BREAK";
 
     // If the count down is finished, write some text
     if (distance < 0) {
@@ -53,8 +53,8 @@ function showTimeUntilDimission(){
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="column1"
-    document.getElementById("column3").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s" + "<br />" + "until dimission";
+    document.getElementById("column3").innerHTML = days + "D " + hours + "H "
+    + minutes + "M " + seconds + "S" + "<br />" + "UNTIL SUMMER HOLIDAY";
 
     // If the count down is finished, write some text
     if (distance < 0) {
@@ -84,8 +84,8 @@ function showTimeUntilChristmasBreak(){
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="column1"
-    document.getElementById("column2").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s" + "<br />" + "until christmas break";
+    document.getElementById("column2").innerHTML = days + "D " + hours + "H "
+    + minutes + "M " + seconds + "S" + "<br />" + "UNTIL CHRISTMAS BREAK";
 
     // If the count down is finished, write some text
     if (distance < 0) {
